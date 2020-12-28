@@ -1,0 +1,25 @@
+GET http://localhost:8080/users/jhgjgjhhy
+Accept: application/xml
+
+{}
+
+
+%%%
+
+# Duration: 15 ms
+# URL: http://localhost:8080/users/jhgjgjhhy
+
+# HTTP/1.1 200
+
+@Content-Type: application/xml
+@Transfer-Encoding: chunked
+@Date: Mon, 28 Dec 2020 14:28:38 GMT
+@Keep-Alive: timeout=60
+@Connection: keep-alive
+
+<UserRest>
+    <firstName>Pinco</firstName>
+    <lastName>Pallino</lastName>
+    <email>test@test.com</email>
+    <userId/>
+</UserRest>
