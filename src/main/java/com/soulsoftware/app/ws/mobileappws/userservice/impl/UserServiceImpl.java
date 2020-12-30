@@ -3,11 +3,13 @@ package com.soulsoftware.app.ws.mobileappws.userservice.impl;
 import com.soulsoftware.app.ws.mobileappws.ui.model.request.UserDetailsRequestModel;
 import com.soulsoftware.app.ws.mobileappws.ui.model.response.UserRest;
 import com.soulsoftware.app.ws.mobileappws.userservice.UserService;
+import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
+@Service
 public class UserServiceImpl implements UserService {
     Map<String, UserRest> users;
 
